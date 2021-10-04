@@ -21,3 +21,16 @@
   line-height: 2;
   margin-bottom: 0;
 }
+
+p {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: black;
+  line-height: 1;
+}
+
+.nav-link:hover {
+  color: #f05456;
+}

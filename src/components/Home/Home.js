@@ -3,7 +3,6 @@ import bannar1 from '../../images/banner/banner-6.png';
 import bannar2 from '../../images/banner/banner-4.png';
 import bannar3 from '../../images/banner/banner-3.png';
 import './Home.css';
-import Service from '../Course/Course';
 import useCourses from '../../hooks/useCouses';
 import Course from '../Course/Course';
 
@@ -41,7 +40,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="our-services">
+      <div className="our-services my-5">
         <div className="container">
           <div className="row row-cols-md-4">
             {

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import useCourses from '../../hooks/useCouses';
 
 const Course = (props) => {
   const { title, price, duration, level, image, id } = props.course;
@@ -13,7 +15,9 @@ const Course = (props) => {
             <small><i className="fas fa-signal"></i> {level}</small>
           </div>
           <div className="d-flex justify-content-between align-items-center">
-            <button className="btn regular-btn" onClick={() => props.handleSeeDetail(id)}>See Detail</button>
+            <Link to={`/courses/${id}`}>
+              <button className="btn regular-btn">See Detail</button>
+            </Link>
             <span>${price}</span>
           </div>
         </div>

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Basic Class",
+    "text": "Sharing the love of yoga to create positive change in the world",
+    "price": 29.99,
+    "facilities": [
+      "Consultation",
+      "4 Hours Training",
+      "Cancel Anytime",
+      "No Hidden Fees",
+      "Flexible Schedule"
+    ],
+    "id": "1002"
+  },
+  {
+    "title": "Medium Class",
+    "text": "Sharing the love of yoga to create positive change in the world",
+    "price": 49.99,
+    "facilities": [
+      "Consultation",
+      "Planning",
+      "Cancel Anytime",
+      "No Hidden Fees",
+      "Flexible Schedule"
+    ],
+    "id": "3092"
+  },
+  {
+    "title": "Advance Class",
+    "text": "Sharing the love of yoga to create positive change in the world",
+    "price": 79.99,
+    "facilities": [
+      "Consultation",
+      "4 Hours Training",
+      "Cancel Anytime",
+      "No Hidden Fees",
+      "Flexible Schedule"
+    ],
+    "id": "9983"
+  }
+]

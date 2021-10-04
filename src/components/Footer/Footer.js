@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-md-3">
-            <h1>Logo</h1>
+            <h1>Yoga</h1>
             <p>Keep Refresh & Strong your body</p>
             <div className="icons">
 
@@ -24,17 +24,12 @@ const Footer = () => {
           </div>
           <div className="col-md-3">
             <h2>Quick Links</h2>
-            <nav className="nav flex-column">
-              {/* <a className="nav-link" aria-current="page" href="#">Home</a>
-              <a className="nav-link" href="#">About</a>
-              <a className="nav-link" href="#">Services</a>
-              <a className="nav-link" href="#">Blog</a>
-              <a className="nav-link" href="#">Courses</a>
-              <a className="nav-link" href="#">Contact</a> */}
-              <NavLink to="/home">Home</NavLink>
-              <NavLink to="/about">About</NavLink>
-              <NavLink to="/course">Courses</NavLink>
-              <NavLink to="/contact">Contact</NavLink>
+            <nav className="nav flex-column ms-5">
+              <NavLink className="nav-link" to="/home">Home</NavLink>
+              <NavLink className="nav-link" to="/about">About</NavLink>
+              <NavLink className="nav-link" to="/courses">Courses</NavLink>
+              <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
+              <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </nav>
           </div>
           <div className="col-md-3">
