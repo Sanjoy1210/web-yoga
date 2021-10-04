@@ -4,6 +4,7 @@ import image from '../../images/not-found/404.png'
 const NotFound = () => {
   return (
     <div>
+      {/* not found fancy style */}
       <div className="container text-center mt-5" style={{ height: '100vh' }}>
         <div className="not-found-image">
           <img src={image} alt="Not Found Image" />

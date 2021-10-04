@@ -6,8 +6,11 @@ const Course = (props) => {
   const { title, price, duration, level, image, id, rating } = props.course;
   return (
     <div className="col">
+      {/* single course card */}
       <div className="card h-100">
         <img src={image} className="card-img-top h-75" alt="..." style={{ objectFit: 'cover' }} />
+
+        {/* course body */}
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <Rating

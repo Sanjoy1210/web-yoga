@@ -9,10 +9,13 @@ const Courses = () => {
 
   return (
     <div className="courses-section">
+      {/* courses secton */}
       <div className="courses text-center my-5">
         <p className="fw-bold text-danger">// Our Courses</p>
         <h1 className="fw-bold text-secondary">Explore Our Yoga Courses</h1>
       </div>
+
+      {/* course container */}
       <div className="container py-5">
         <div className="row row-cols-md-4 g-4">
           {

@@ -4,6 +4,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="container">
+      {/* contact us */}
       <p className="text-center fw-bold text-danger">Have a question?</p>
       <h1 className="fw-bolder text-center text-secondary">Get In Touch Now</h1>
       <div className="contact-us w-75 mx-auto">

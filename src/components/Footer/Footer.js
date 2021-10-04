@@ -8,6 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-md-3">
+            {/* footer logo and icons */}
             <h1 className="fw-bold text-secondary">Yoga</h1>
             <p>Keep Refresh & Strong your body</p>
             <div className="icons">
@@ -18,6 +19,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-3">
+            {/* our address */}
             <h2>Our address</h2>
             <div className="our-address">
               <p><i className="fas fa-map-marker-alt"></i> 80 Pine St. 10th Floor,<br /> New York, NY 10005, USA</p>
@@ -26,6 +28,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-3">
+            {/* links */}
             <h2>Quick Links</h2>
             <nav className="nav flex-column ms-5">
               <NavLink className="nav-link" to="/home">Home</NavLink>
@@ -36,6 +39,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="col-md-3">
+            {/* newsletter */}
             <h2>Newsletter</h2>
             <div className="form-floating mb-3">
               <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />

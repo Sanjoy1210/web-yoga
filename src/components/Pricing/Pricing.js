@@ -3,6 +3,7 @@ import { useEffect } from 'react/cjs/react.development';
 import Price from '../Price/Price';
 
 const Pricing = () => {
+  // fake data load
   const [prices, setPrices] = useState([]);
   useEffect(() => {
     fetch('./pricing.json')
@@ -12,6 +13,7 @@ const Pricing = () => {
 
   return (
     <div className="container my-5">
+      {/* pricing section */}
       <p className="text-danger text-center fw-bold">// Pricing</p>
       <h1 className="text-secondary text-center fw-bold mb-5">Choose Your Plan</h1>
       <div className="row row-cols-md-3">

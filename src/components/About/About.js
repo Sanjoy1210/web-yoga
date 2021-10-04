@@ -5,11 +5,13 @@ import aboutImg from '../../images/about/about1.jpg';
 const About = () => {
   return (
     <div>
+      {/* About us img */}
       <div className="about-us">
         <div className="about-us-banner d-flex align-items-center justify-content-center">
 
         </div>
-        <div className="about-us-content mt-5">
+        {/* about us content */}
+        <div className="about-us-content my-5">
           <div className="container">
             <div className="row row-cols-md-2">
               <div className="col">
@@ -30,17 +32,6 @@ const About = () => {
 
                 <button className="btn regular-btn">Discover more</button>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="our-achivement">
-          <div className="happy-clients">
-            <div className="icon">
-              <i className="far fa-smile"></i>
-            </div>
-            <div className="clients">
-              <h1>1200+</h1>
-              <p>Happy Clients</p>
             </div>
           </div>
         </div>

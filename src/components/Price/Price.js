@@ -6,6 +6,7 @@ const Price = (props) => {
   const { title, facilities, price, text } = props.price;
   return (
     <div className="col">
+      {/* single price card */}
       <div className="card h-100 single-price text-center">
         <div className="card-body">
           <h5 className="card-title fw-bolder">{title}</h5>
