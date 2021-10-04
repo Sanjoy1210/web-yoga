@@ -10,8 +10,8 @@ const Home = () => {
     <div>
       <div className="banner-area">
         <div className="banner-content">
-          <h1>Start enlightening your body and soul</h1>
-          <p>Fitness For The Services Body And Soul</p>
+          <h1>Start enlightening <br /> your body and soul</h1>
+          <p>Regular yoga practice may reduce levels of stress and body-wide inflammation, contributing to healthier hearts. Several of the factors contributing to heart disease, including high blood pressure and excess weight.</p>
         </div>
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -25,14 +25,14 @@ const Home = () => {
               <img src={bannar3} className="d-block w-50" alt="..." />
             </div>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
-          </button>
+          </button> */}
         </div>
       </div>
 

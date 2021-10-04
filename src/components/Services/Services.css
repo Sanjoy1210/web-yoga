@@ -1,0 +1,14 @@
+.services {
+  background-image: url(../../images/services/services.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.services h1 {
+  color: #726949;
+  font-size: 3rem;
+  font-weight: 700;
+}

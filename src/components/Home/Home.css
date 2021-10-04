@@ -1,0 +1,24 @@
+.banner-area {
+  background-color: #edd0cb;
+  padding-bottom: 2.5rem;
+}
+.banner-content {
+  position: absolute;
+  z-index: 1000;
+  min-height: 600px;
+  top: 250px;
+  left: 116px;
+}
+
+.banner-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-content p {
+  width: 50%;
+}
+.carousel-item img {
+  margin-left: 50%;
+  margin-right: 0;
+}
