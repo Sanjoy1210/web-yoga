@@ -15,7 +15,7 @@ const Home = () => {
         <div className="banner-content">
           {/* home content */}
           <h1>Start enlightening <br /> your body and soul</h1>
-          <p>Regular yoga practice may reduce levels of stress and body-wide inflammation, contributing to healthier hearts. Several of the factors contributing to heart disease, including high blood pressure and excess weight.</p>
+          <p className="my-4">Regular yoga practice may reduce levels of stress and body-wide inflammation, contributing to healthier hearts. Several of the factors contributing to heart disease, including high blood pressure and excess weight.</p>
           <button className="btn regular-btn">Join the class</button>
         </div>
         {/* banner slider */}

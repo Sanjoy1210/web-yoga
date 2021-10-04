@@ -1,6 +1,6 @@
 # YOGA Website
 
-### [yoga-website](https://web-yoga.netlify.app/)
+### https://web-yoga.netlify.app/
 
 ### Our Yoga courses
 #### This is a simple yoga teaching website. I only using there react, bootstrap for css.
