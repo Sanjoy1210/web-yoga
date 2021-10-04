@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useParams } from 'react-router';
+import React from 'react';
 import useCourses from '../../hooks/useCouses';
 import Course from '../Course/Course';
 

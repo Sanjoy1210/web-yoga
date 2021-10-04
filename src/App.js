@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Pricing from './components/Pricing/Pricing';
 import Courses from './components/Courses/Courses';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/pricing">
             <Pricing />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="*">
             <NotFound />

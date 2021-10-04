@@ -8,10 +8,13 @@ const Footer = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-md-3">
-            <h1>Yoga</h1>
+            <h1 className="fw-bold text-secondary">Yoga</h1>
             <p>Keep Refresh & Strong your body</p>
             <div className="icons">
-
+              <i className="fab fa-facebook"></i>
+              <i className="fab fa-youtube"></i>
+              <i className="fab fa-twitter"></i>
+              <i className="fab fa-instagram"></i>
             </div>
           </div>
           <div className="col-md-3">
