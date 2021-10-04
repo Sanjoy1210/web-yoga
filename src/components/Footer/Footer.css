@@ -1,3 +1,7 @@
+.footer {
+  background-color: #edd0cb;
+  padding-top: 30px;
+}
 .regular-btn {
   background-color: #f05456;
   border: 1px solid transparent;
@@ -11,4 +15,9 @@
   color: #f05456;
   background-color: #fff;
   box-shadow: 0px 8px 30px 0px rgb(240 84 86 / 30%);
+}
+
+.our-address p {
+  line-height: 2;
+  margin-bottom: 0;
 }

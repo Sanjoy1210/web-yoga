@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
-import Services from './components/Services/Services';
+import Services from './components/Courses/Courses';
 
 function App() {
   return (
@@ -20,18 +20,18 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route exact path="/services">
+          <Route exact path="/courses">
             <Services />
           </Route>
-          <Route path="/services/:serviceId">
+          <Route path="/courses/:courseId">
             <CourseDetail />
           </Route>
           <Route path="*">
             <NotFound />
           </Route>
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

@@ -13,3 +13,12 @@
   font-size: 3.5rem;
   /* opacity: 0.8; */
 }
+
+p {
+  line-height: 1.9;
+}
+
+li {
+  list-style: none;
+  line-height: 40px;
+}

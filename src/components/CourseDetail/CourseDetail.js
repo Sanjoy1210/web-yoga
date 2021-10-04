@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import useServices from '../../hooks/useServices';
+import useCourses from '../../hooks/useCouses';
 
 const CourseDetail = () => {
-  const [services, setServices] = useServices();
-  const [courses, setCourses] = useState([]);
-  const { serviceId } = useParams();
+  const { courseId } = useParams();
+  const [courses, setCourses] = useCourses(courseId);
+  const [newCourses, setNewCourses] = useState([]);
+  console.log(courseId);
 
   useEffect(() => {
-    fetch('./fakeData.json')
+    fetch('./courses.json')
       .then(res => res.json())
-      .then(data => setCourses(data));
-  }, [services]);
+      .then(data => setNewCourses(data))
+  }, [courses]);
+
   console.log(courses);
-  const course = courses?.find(service => service.id === serviceId);
-  console.log(course);
+
+  const singleCourse = newCourses.find(course => course.id === courseId);
+  console.log(singleCourse);
   return (
     <div>
       <h1>This is single course details</h1>
