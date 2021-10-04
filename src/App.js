@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/courses/:id">
             <CourseDetail />
           </Route>
-          <Route exact path="/courses">
+          <Route path="/courses">
             <Courses />
           </Route>
           <Route path="/pricing">
