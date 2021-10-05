@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white menu-bar">
       <div className="container">
         {/* nav bar logo */}
         <NavLink className="navbar-brand fw-bolder fs-1 text-secondary" to="/home">Yoga</NavLink>

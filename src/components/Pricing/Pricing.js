@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Price from '../Price/Price';
+import './Pricing.css';
 
 const Pricing = () => {
   // fake data load
@@ -11,14 +12,19 @@ const Pricing = () => {
   }, [])
 
   return (
-    <div className="container my-5">
-      {/* pricing section */}
-      <p className="text-danger text-center fw-bold">// Pricing</p>
-      <h1 className="text-secondary text-center fw-bold mb-5">Choose Your Plan</h1>
-      <div className="row row-cols-md-3">
-        {
-          prices.map(price => <Price key={price.id} price={price}></Price>)
-        }
+    <div>
+      <div className="pricing-banner banner d-flex align-items-center justify-content-center">
+        <h1>Pricing</h1>
+      </div>
+      <div className="container my-5">
+        {/* pricing section */}
+        <p className="text-danger text-center fw-bold">// Pricing</p>
+        <h1 className="text-secondary text-center fw-bold mb-5">Choose Your Plan</h1>
+        <div className="row row-cols-md-3">
+          {
+            prices.map(price => <Price key={price.id} price={price}></Price>)
+          }
+        </div>
       </div>
     </div>
   );

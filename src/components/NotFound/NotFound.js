@@ -9,7 +9,7 @@ const NotFound = () => {
       {/* not found fancy style */}
       <div className="container text-center mt-5" style={{ height: '100vh' }}>
         <div className="not-found-image">
-          <img src={image} alt="Not Found Image" />
+          <img src={image} alt="" />
         </div>
         <div className="not-found-content mt-4">
           <h1 className="text-secondary text-secondary fw-bolder">Page Not Found</h1>

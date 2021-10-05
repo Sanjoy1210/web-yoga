@@ -1,10 +1,26 @@
+h1 {
+  font-weight: 700;
+  color: #62392B;
+}
+
 .single-price {
-  /* background-color: #FFEEEB; */
+  background-color: #FFF;
   padding: 20px;
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  transition: all 0.9s linear;
+  transition-duration: .7s;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.single-price h1 {
+  color: #62392B;
+}
+
+.single-price h5 {
+  color: #f46150;
 }
 
 .single-price:hover {
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: 1px solid #f46150;
 }

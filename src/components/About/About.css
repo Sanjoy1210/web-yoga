@@ -1,5 +1,4 @@
-.about-us-banner {
-  background-image: url(../../images/about/about3.jpg);
+.banner {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -7,11 +6,20 @@
   min-height: 300px;
 }
 
+.about-us-banner {
+  background-image: url(../../images/about/about3.jpg);
+}
+
 .about-us-banner h1 {
-  color: black;
   font-weight: 700;
   font-size: 3.5rem;
   /* opacity: 0.8; */
+}
+
+.about-us-content {
+  background-image: url(../../images/about/Bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {

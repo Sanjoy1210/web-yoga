@@ -15,7 +15,7 @@ const Price = (props) => {
           {
             facilities.map(facility => <li key={key++}>{facility}</li>)
           }
-          <button className="btn regular-btn">Order Now</button>
+          <button className="btn regular-btn mt-4">Order Now</button>
         </div>
       </div>
     </div>

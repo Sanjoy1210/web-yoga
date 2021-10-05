@@ -1,8 +1,18 @@
+.contact-us {
+  padding-top: 100px;
+}
+
 .form-control {
   border: none;
   border-bottom: 1px solid #FF7345;
+  border-radius: 0;
 }
 
 .form-control:focus {
-  border-color: transparent;
+  box-shadow: none;
+  border-color: #FF7345;
+}
+
+textarea {
+  resize: none;
 }

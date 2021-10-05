@@ -8,12 +8,12 @@ const About = () => {
     <div>
       {/* About us img */}
       <div className="about-us">
-        <div className="about-us-banner d-flex align-items-center justify-content-center">
-
+        <div className="about-us-banner banner d-flex align-items-center justify-content-center">
+          <h1>About</h1>
         </div>
         {/* about us content */}
         <div className="about-us-content my-5">
-          <div className="container">
+          <div className="container py-5">
             <div className="row row-cols-md-2">
               <div className="col">
                 <img src={aboutImg} alt="" className="w-100" />
