@@ -34,10 +34,3 @@ p {
 .nav-link:hover {
   color: #f05456;
 }
-
-.icons .fab {
-  font-size: 30px;
-  margin-right: 20px;
-  margin-top: 16px;
-  color: #f05456;
-}

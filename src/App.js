@@ -14,34 +14,46 @@ function App() {
   return (
     <div>
       <Router>
-        <Header></Header>
         <Switch>
           <Route exact path="/">
+            <Header></Header>
             <Home />
+            <Footer />
           </Route>
           <Route path="/home">
+            <Header></Header>
             <Home />
+            <Footer />
           </Route>
           <Route path="/about">
+            <Header></Header>
             <About />
+            <Footer />
           </Route>
           <Route exact path="/courses/:id">
+            <Header></Header>
             <CourseDetail />
+            <Footer />
           </Route>
           <Route path="/courses">
+            <Header></Header>
             <Courses />
+            <Footer />
           </Route>
           <Route path="/pricing">
+            <Header></Header>
             <Pricing />
+            <Footer />
           </Route>
           <Route path="/contact">
+            <Header></Header>
             <Contact />
+            <Footer />
           </Route>
           <Route path="*">
             <NotFound />
           </Route>
         </Switch>
-        <Footer />
       </Router>
     </div>
   );

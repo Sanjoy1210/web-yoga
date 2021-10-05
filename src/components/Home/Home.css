@@ -13,10 +13,11 @@
 .banner-content h1 {
   font-size: 4rem;
   font-weight: 700;
+  line-height: 1.1;
 }
 
 .banner-content p {
-  width: 50%;
+  width: 46%;
 }
 .carousel-item img {
   margin-left: 50%;

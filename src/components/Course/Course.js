@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Rating from 'react-rating';
+import './Course.css';
 
 const Course = (props) => {
   const { title, price, duration, level, image, id, rating } = props.course;
@@ -11,7 +12,7 @@ const Course = (props) => {
         <img src={image} className="card-img-top h-75" alt="..." style={{ objectFit: 'cover' }} />
 
         {/* course body */}
-        <div className="card-body">
+        <div className="card-body course-content">
           <h5 className="card-title">{title}</h5>
           <Rating
             readonly

@@ -45,7 +45,7 @@ const Home = () => {
       <div className="our-services my-5">
         <div className="container">
           <p className="text-center fw-bold text-danger">// Our Courses</p>
-          <h1 className="text-center text-secondary fw-bolder mb-4">Our Amazing Yoga Courses</h1>
+          <h1 className="text-center text-secondary fw-bolder mb-5">Our Amazing Yoga Courses</h1>
           <div className="row row-cols-md-4">
             {
               courses?.slice(0, 4)?.map(course => <Course key={course.id} course={course}></Course>)

@@ -11,11 +11,11 @@ const Footer = () => {
             {/* footer logo and icons */}
             <h1 className="fw-bold text-secondary">Yoga</h1>
             <p>Keep Refresh & Strong your body</p>
-            <div className="icons">
-              <i className="fab fa-facebook"></i>
-              <i className="fab fa-youtube"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-instagram"></i>
+            <div className="icons d-flex mt-2">
+              <span className="me-2"><i className="fab fa-facebook"></i></span>
+              <span className="me-2"><i className="fab fa-youtube"></i></span>
+              <span className="me-2"><i className="fab fa-twitter"></i></span>
+              <span><i className="fab fa-instagram"></i></span>
             </div>
           </div>
           <div className="col-md-3">

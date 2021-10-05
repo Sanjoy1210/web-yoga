@@ -1,9 +1,33 @@
 [
   {
+    "title": "Fitness Yoga",
+    "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
+    "rating": 5,
+    "price": 28.99,
+    "duration": "8 weeks",
+    "level": "Begginner",
+    "lesson": "7 Lessons",
+    "students": 60,
+    "image": "https://i.ibb.co/vxRqKL6/Beautiful-smiling-woman-wearing-sportswear-doing-cobra-exercise-at-group-lesson-practicing-yoga-on-m.jpg",
+    "id": "53026"
+  },
+  {
+    "title": "Gomukhasana",
+    "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
+    "rating": 3.1,
+    "price": 38.99,
+    "duration": "8 weeks",
+    "level": "Intermediate",
+    "lesson": "7 Lessons",
+    "students": 60,
+    "image": "https://i.ibb.co/f263GC0/Focus-woman-doing-yoga-at-home.jpg",
+    "id": "53045"
+  },
+  {
     "title": "Utkatasana",
     "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
     "rating": 3.5,
-    "price": 28.99,
+    "price": 29.99,
     "duration": "8 weeks",
     "level": "Beginner",
     "lesson": "7 Lessons",
@@ -14,10 +38,10 @@
   {
     "title": "Bikram Yoga",
     "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
-    "rating": 3,
-    "price": 38.99,
+    "rating": 4.5,
+    "price": 35.99,
     "duration": "8 weeks",
-    "level": "Intermediate",
+    "level": "Advance",
     "lesson": "7 Lessons",
     "students": 60,
     "image": "https://i.ibb.co/d7MMgvC/young-woman-doing-half-lotus-toe-balance-exercise-1163-5069.jpg",
@@ -96,18 +120,6 @@
     "id": "52819"
   },
   {
-    "title": "Gomukhasana",
-    "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
-    "rating": 3.9,
-    "price": 38.99,
-    "duration": "8 weeks",
-    "level": "Intermediate",
-    "lesson": "7 Lessons",
-    "students": 60,
-    "image": "https://i.ibb.co/f263GC0/Focus-woman-doing-yoga-at-home.jpg",
-    "id": "53045"
-  },
-  {
     "title": "Virasana",
     "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
     "rating": 4,
@@ -118,18 +130,6 @@
     "students": 60,
     "image": "https://i.ibb.co/tzBBWK1/Man-performing-a-Hanumanasna-or-Monkey-yoga-pose-doing-forward-splits-with-arms-raised-in-a-high-key.jpg",
     "id": "52977"
-  },
-  {
-    "title": "Fitness Yoga",
-    "description": "Utkatasana, also called Kursiasana or Chair pose is a standing yoga posture that strengthens the core and lower body. In this pose, hands are kept straight and palms faces downward, while the knees bend as if sitting on an imaginary chair. This is an important pose in yoga for energizing the entire body and promoting creativity and mental strength. Chair pose is also known as fierce pose, powerful pose or, in Bikram yoga, awkward pose. The Sanskrit name is utkatasana.",
-    "rating": 4,
-    "price": 38.99,
-    "duration": "8 weeks",
-    "level": "Begginner",
-    "lesson": "7 Lessons",
-    "students": 60,
-    "image": "https://i.ibb.co/vxRqKL6/Beautiful-smiling-woman-wearing-sportswear-doing-cobra-exercise-at-group-lesson-practicing-yoga-on-m.jpg",
-    "id": "53026"
   },
   {
     "title": "Basic Yoga",
