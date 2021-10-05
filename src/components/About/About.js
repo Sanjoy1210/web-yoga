@@ -9,7 +9,7 @@ const About = () => {
       {/* About us img */}
       <div className="about-us">
         <div className="about-us-banner banner d-flex align-items-center justify-content-center">
-          <h1>About</h1>
+
         </div>
         {/* about us content */}
         <div className="about-us-content my-5">

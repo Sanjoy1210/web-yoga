@@ -14,7 +14,7 @@ const Pricing = () => {
   return (
     <div>
       <div className="pricing-banner banner d-flex align-items-center justify-content-center">
-        <h1>Pricing</h1>
+
       </div>
       <div className="container my-5">
         {/* pricing section */}

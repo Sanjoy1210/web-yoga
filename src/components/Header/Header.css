@@ -4,3 +4,13 @@
   width: 100%;
   z-index: 1000;
 }
+
+li a {
+  color: #f46150!important;
+  font-size: 18px;
+  transition: all 0.5s linear;
+}
+
+li:hover a {
+  color: #0f0e17!important;
+}

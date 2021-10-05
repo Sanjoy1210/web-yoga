@@ -9,6 +9,7 @@ import NotFound from './components/NotFound/NotFound';
 import Pricing from './components/Pricing/Pricing';
 import Courses from './components/Courses/Courses';
 import Contact from './components/Contact/Contact';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -31,13 +32,16 @@ function App() {
             <Footer />
           </Route>
           <Route exact path="/courses/:id">
-            <Header></Header>
-            <CourseDetail />
-            <Footer />
+            <NotFound />
           </Route>
           <Route path="/courses">
             <Header></Header>
             <Courses />
+            <Footer />
+          </Route>
+          <Route path="/blogs">
+            <Header></Header>
+            <Blogs />
             <Footer />
           </Route>
           <Route path="/pricing">

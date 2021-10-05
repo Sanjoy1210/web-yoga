@@ -1,0 +1,55 @@
+.blog-title {
+  padding-top: 200px;
+}
+
+.blogs {
+  padding-top: 100px;
+}
+
+.search-container {
+  background-color: #f05456;
+  text-align: center;
+  line-height: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.search-container input {
+  width: 100%;
+  height: 36px;
+  font-size: 17px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #f05456;
+  padding-left: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+  background-color: #0f0e17;
+  width: 40px;
+  height: 36px;
+  text-align: center;
+  color: #fffffe;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-post {
+  background-color: #FFF;
+  box-shadow: 0px 0px 30px 0px rgb(33 33 33 / 10%);
+  padding: 17px;
+  border-radius: 10px;
+}
+
+.posts p {
+  line-height: 3;
+}

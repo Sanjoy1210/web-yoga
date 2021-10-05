@@ -1,6 +1,7 @@
 .banner-area {
   background-color: #edd0cb;
   padding-bottom: 2.5rem;
+  min-height: 100vh;
 }
 .banner-content {
   position: absolute;
