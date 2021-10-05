@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Footer.css';
+import logo from '../../images/logo.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="row g-4">
           <div className="col-md-3">
             {/* footer logo and icons */}
-            <h1 className="fw-bold text-secondary">Yoga</h1>
+            <h1 className="fw-bold text-secondary"><img src={logo} alt="" style={{ width: "60px" }} />Yoga</h1>
             <p>Keep Refresh & Strong your body</p>
             <div className="icons d-flex mt-2">
               <span className="me-2"><i className="fab fa-facebook"></i></span>

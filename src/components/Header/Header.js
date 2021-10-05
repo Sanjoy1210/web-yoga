@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import logo from '../../images/logo.png';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white menu-bar">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white menu-bar p-0">
       <div className="container">
         {/* nav bar logo */}
-        <NavLink className="navbar-brand fw-bolder fs-1 text-secondary" to="/home">Yoga</NavLink>
+        <NavLink className="navbar-brand fw-bolder fs-1 text-secondary" to="/home"><img src={logo} alt="" style={{ width: "60px" }} /> Yoga</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
